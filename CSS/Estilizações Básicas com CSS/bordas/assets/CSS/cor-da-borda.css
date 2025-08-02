@@ -1,0 +1,12 @@
+     * {
+        font-family: Roboto;
+     }
+
+     .exemplo {
+        background-color: palevioletred;
+        width: 200px;
+        height: 200px;
+        border-top: 10px solid palegreen;
+        border-bottom-style: double;
+        border-bottom-width: 20px;
+     }
