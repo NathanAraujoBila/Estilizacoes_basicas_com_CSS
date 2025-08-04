@@ -9,12 +9,17 @@
     width: 200px;
     height: 200px;
     border: 30px solid;
+    margin: 50px auto;
+}
+
+#exemplo-resumido {
+    border-image: url('../CSS/imagens/borda.png') 169 / 10px 20px 30px 40px / 1 round;
 }
 
 #exemplo-1 {
     border-image-source: url('../CSS/imagens/borda.png');
-    border-image-slice: 169 fill;
-    border-image-repeat: repeat;
+    border-image-slice: 169;
+    border-image-repeat: round;
 }
 
 #exemplo-2 {
