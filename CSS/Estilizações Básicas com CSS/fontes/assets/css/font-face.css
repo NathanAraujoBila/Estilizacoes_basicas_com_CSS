@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../css/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Batata;
+    src: url(../fonts/Roboto-Italic.ttf);
+}
+
+* {
+    font-family: Roboto;
+}
+
+h1 {
+    font-family: Batata;
+}
