@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        .exemplo {
+            background-color: Orange;
+            border: 3px solid purple;
+            width: 200px;
+            height: 200px;
+            padding: 10px;            
+        }
+
+        #hidden {
+            overflow: hidden;
+        }
+
+        #scroll {
+            overflow: scroll;
+        }
+
+        #auto {
+            overflow: auto;
+        }
+
+        #ex1 {
+            overflow-y: hidden;
+            white-space: nowrap;
+            overflow-x: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h2>Propriedade <code>Overflow</code></h2>
+    <p>Controla como o conteúdo deve ser exibido caso ultrapasse os limites do container. </p>
+
+    <i>Exemplos:</i> <br><br><br>
+
+    <code>overflow: visible;</code>
+    <div class="exemplo">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+    
+    <code>overflow: hidden;</code>
+    <div id="hidden" class="exemplo">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    
+    </div>
+
+    <br><br>
+
+    <code>overflow: scroll;</code>
+    <div id="scroll" class="exemplo">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    
+    </div>
+
+    <br><br>
+
+    <code>overflow: auto;</code>
+    <div id="auto" class="exemplo">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    
+    </div>
+
+    <br><br>
+
+    <code>overflow-x e overflow-y;</code>
+    <div id="ex1" class="exemplo">
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque tempore aperiam repellendus nihil esse deserunt quasi! Cumque labore aut voluptates repellat in, repudiandae, asperiores, iure quisquam ut quo sit porro!</p>
+    
+    </div>
+
+</body>
+</html>

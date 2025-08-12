@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de css</title>
+    <style>
+
+      .exemplo {
+        width: 200px;
+        color: black;
+        background-color: chartreuse;
+     }
+
+       p {
+        white-space: nowrap;
+        overflow: hidden;
+       }
+
+       #exemplo-01 {
+        text-overflow: clip;
+     }
+
+       #exemplo-02 {
+        text-overflow: ellipsis;
+     }
+
+       #exemplo-03 {
+        text-overflow: 'eae, bom dia >'
+     }
+
+    </style>
+</head>
+<body>
+    <h2>Propriedade <code>Writting mode</code></h2>
+
+    <p>Define a orientação do texto (vertical ou horizontal).</p>
+
+    <i>Exemplo:</i>
+    
+    <code>Text-overflow: clip;</code>
+    <p id="exemplo-01" class="exemplo">
+        <span>
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </span>
+    </p>
+    
+    <code>Text-overflow: ellipsis;</code>
+    <p id="exemplo-02" class="exemplo">
+        <span>
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </span>
+    </p>
+    
+    <code>Text-overflow: string;</code>
+    (funciona apenas no firefox)
+    <p id="exemplo-03" class="exemplo">
+        <span>
+            Chega de saudade
+            A realidade é que sem ela não há paz
+        </span>
+    </p>
+
+  </body>
+
+</html>
