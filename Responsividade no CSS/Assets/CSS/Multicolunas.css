@@ -1,0 +1,10 @@
+body {
+    font-family: arial;
+}
+
+.container {
+    column-count: none;
+    column-width: 200px;
+    column-rule: 1px solid purple;
+    column-gap: 100px;
+}
